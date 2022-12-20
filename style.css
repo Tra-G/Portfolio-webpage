@@ -1,0 +1,155 @@
+/* 
+#F7FFF7 - almost white
+#343434 - dark grey
+#12F306 - blue dark
+#FFE660 - yellow
+#A1C607 - blue light
+*/
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before *:after {
+    box-sizing: inherit;
+}
+
+
+/*Global styles */
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Crete Round', 'Courgette', cursive;
+    font-size: ;
+
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+a{
+    color: #FFE660;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*Global styles */
+img{
+    width: 300px;
+}
+
+/*Header */
+.head{
+    background-color: #2F3061;
+    color: #F7FFF7;
+    font-size: 18px;
+}
+
+h1{
+    line-height: 1;
+}
+
+h2{
+    margin: 0;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+
+/*projects */
+.project{
+    background-color: #F7FFF7;
+}
+
+.project a{
+    color: #2F3061;
+}
+
+.project .btn{
+    color: #F7FFF7;
+    background-color: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.project .btn:hover{
+    background-color: rgba(47, 48, 97, 80%);
+}
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #2F3061;
+    padding: 25px 0;
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
+/*work */
+.work{
+    background-color: #A1C6D7;
+}
+
+
+/*education */
+
+/*Footer */
+footer{
+    background-color: #343434;
+    color: #F7FFF7;
+    padding: 40px 0;
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+footer a{
+    justify-content: space-between;
+    padding: 10px;
+}
